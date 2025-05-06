@@ -1,0 +1,40 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+body {
+    background-image: linear-gradient(to right bottom, white, black, yellow, red, blue, grey, orange, skyblue, white);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homepage-parent {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+
+
+}
+
+.homepage-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.homepage-info {
+    max-width: 500px;
+    color: white;
+}
+
+.logo-img {
+    height: 60px;
+    width: 210px;
+}
