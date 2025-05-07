@@ -1,0 +1,10 @@
+{
+  "build": {
+    "command": "cd frontend && npm install && npm run build"
+  },
+  "deploy": {
+    "command": "npx serve -s frontend/build",
+    "startCommand": "npx serve -s frontend/build",
+    "healthcheckPath": "/"
+  }
+}
